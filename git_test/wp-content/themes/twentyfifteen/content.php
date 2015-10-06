@@ -29,6 +29,7 @@
 	<div class="entry-content">
 		<?php
 			/* translators: %s: Name of current post */
+			echo "test";// 201510061059
 			the_content( sprintf(
 				__( 'Continue reading %s', 'twentyfifteen' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
